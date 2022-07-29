@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+
+section[aria-label="navbar"]{
+    position: relative;
+    height: 20%;
+}
+
+.navbar-container{
+    height: 100%;
+}
+
+.navbar-container>div{
+    display: inline-block;
+}
+
+.navbar-container img{
+    width: 100px;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.list-item{
+    display: inline-block;
+}
+
+.navbar-container div:first-child{
+    text-align: center;
+}
+
+.grow-list{
+    position: absolute;
+    left: 250px;
+    top: 52px;
+    width: 60%;
+    color: #a2a0a9;
+}
+
+.grow-list .list{
+    width: 100%;
+    font-size: 18px;
+}
+
+.list-item{
+    margin-right: 50px;
+}
+
+.list-item:hover{
+    color: #000;
+}
+
+.button-group{
+    position: absolute;
+    right: 70px;
+    top: 45px;
+}
+
+.nav-button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #5955B3;
+    color: #fff;
+    font-size: 15px;
+}
+
+section[aria-label="banner"]{
+    position: relative;
+    height: 80%;
+}
+
+.banner-container{
+    height: 100%;
+    width: 100%;
+}
+
+.banner-container div:first-child{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.heading-text{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    width: 30%;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #3C2F60;
+}
+
+.heading-text span{
+    color: #5955B3;
+}
+
+
+.description{
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    width: 26%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #969499;
+}
+
+.btn{
+    position: absolute;
+    bottom: 150px;
+    left: 110px;
+    width: 15%;
+    height: 10%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #5955B3;
+    border: none;
+} 
+
+.banner-container div:last-child{
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.banner-container>div>img{
+    width: 800px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
