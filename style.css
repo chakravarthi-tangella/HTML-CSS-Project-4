@@ -15,12 +15,11 @@ body{
 
 .container{
     height: 100vh;
-    overflow: hidden;
 }
 
 section[aria-label="navbar"]{
     position: relative;
-    height: 20%;
+    height: 15%;
 }
 
 .navbar-container{
@@ -32,7 +31,7 @@ section[aria-label="navbar"]{
 }
 
 .navbar-container img{
-    width: 100px;
+    width: 150px;
     position: absolute;
     left: 70px;
     top: 50px;
@@ -55,8 +54,9 @@ section[aria-label="navbar"]{
 }
 
 .grow-list .list{
-    width: 100%;
-    font-size: 18px;
+    margin-left: 3rem;
+    width: fit-content;
+    font-size: 1.5rem;
 }
 
 .list-item{
@@ -78,12 +78,12 @@ section[aria-label="navbar"]{
     border-radius: 10px;
     background-color: #5955B3;
     color: #fff;
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 
 section[aria-label="banner"]{
     position: relative;
-    height: 80%;
+    height: 85%;
 }
 
 .banner-container{
@@ -100,10 +100,10 @@ section[aria-label="banner"]{
 .heading-text{
     position: absolute;
     left: 100px;
-    top: 20px;
-    width: 30%;
-    font-size: 70px;
-    line-height: 70px;
+    top: 40px;
+    width: 40%;
+    font-size: 6rem;
+    line-height: 8rem;
     font-weight: 600;
     color: #3C2F60;
 }
@@ -115,20 +115,20 @@ section[aria-label="banner"]{
 
 .description{
     position: absolute;
-    top: 260px;
+    top: 50%;
     left: 100px;
-    width: 26%;
+    width: 35%;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 2rem;
     color: #969499;
 }
 
 .btn{
+    font-size: 2rem;
     position: absolute;
     bottom: 150px;
     left: 110px;
-    width: 15%;
-    height: 10%;
+    padding: 1rem 2rem;
     border-radius: 10px;
     color: #fff;
     background-color: #5955B3;
@@ -143,8 +143,9 @@ section[aria-label="banner"]{
 }
 
 .banner-container>div>img{
-    width: 800px;
+    /* width: 800px; */
+    width: 1000px;
     position: absolute;
-    right: 0px;
-    bottom: 0;
+    right: 0;
+    top: 0;
 }
