@@ -13,7 +13,7 @@ I designed this page for `1920*1080` resolution.This design is not responsive.
 
 `note:` please make sure the preview screen is `1920 x 1080`
 
-[![Badge](https://img.shields.io/badge/Project--Link-Law%20page-orange)](https://chakravarthi-digital-marketing-home-page.netlify.app/)
+[![Badge](https://img.shields.io/badge/Project--Link-Website-orange)](https://chakravarthi-digital-marketing-home-page.netlify.app/)
 
 ![](assets/4.png)
 
